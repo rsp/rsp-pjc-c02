@@ -7,7 +7,7 @@ C++ Examples with CI Tests -
 
 Tested with: gcc 6.x and clang 3.8
 
-More PJC examples: https://github.com/rsp/rsp-pjc
+More PJC examples: https://github.com/rsp/rsp-pjc#readme
 
 Programs
 -
@@ -48,7 +48,7 @@ Author
 <br/>
 [![Follow on Stack Exchange][stackexchange-img]][stackoverflow-url]
 
-[pjc-url]: https://github.com/rsp/rsp-pjc
+[pjc-url]: https://github.com/rsp/rsp-pjc#readme
 [github-url]: https://github.com/rsp/rsp-pjc-c02
 [travis-img]: https://travis-ci.org/rsp/rsp-pjc-c02.svg?branch=master
 [travis-url]: https://travis-ci.org/rsp/rsp-pjc-c02
