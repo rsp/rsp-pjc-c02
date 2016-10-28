@@ -5,7 +5,7 @@ double* aver(double* arr, size_t size, double& average) {
     using std::abs;
 
     double sum = 0;
-    for (int i = 0; i < size; i++)
+    for (size_t i = 0; i < size; i++)
         sum += arr[i];
     average = sum / size;
 
@@ -14,7 +14,7 @@ double* aver(double* arr, size_t size, double& average) {
     };
 
     double *closest = arr;
-    for (int i = 1; i < size; i++)
+    for (size_t i = 1; i < size; i++)
         if (dist(arr + i) < dist(closest))
             closest = arr + i;
 
