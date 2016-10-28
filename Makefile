@@ -1,25 +1,22 @@
-CC = g++
+# PJC C02 by Rafał Pocztarski
+# https://github.com/rsp/rsp-pjc-c02
+# https://gitlab.com/rsp/rsp-pjc-c02
 
-CFLAGS  = -g -Wall -Wfatal-errors
+CXXFLAGS = -g -std=c++1z -Wall -Wfatal-errors
+CXXFLAGS_Z03 = -D_USE_MATH_DEFINES
 
 ALL = zad1 zad2 zad3
 
 all: $(ALL)
 
-zad1: Makefile zad1.cc
-	$(CC) $(CFLAGS) -o $@ $@.cc
+zad1: zad1.cc Makefile
+	$(CXX) $(CXXFLAGS) -o $@ $@.cc
 
-zad2: zad2.cc
-	$(CC) $(CFLAGS) -o $@ $@.cc
+zad2: zad2.cc Makefile
+	$(CXX) $(CXXFLAGS) -o $@ $@.cc
 
-zad3: zad3.cc
-	$(CC) $(CFLAGS) -D_USE_MATH_DEFINES -o $@ $@.cc
-
-zad4: zad4.cc
-	$(CC) $(CFLAGS) -o $@ $@.cc
-
-zad5: zad5.cc
-	$(CC) $(CFLAGS) -o $@ $@.cc
+zad3: zad3.cc Makefile
+	$(CXX) $(CXXFLAGS) -o $@ $@.cc $(CXXFLAGS_Z03)
 
 clean:
 	$(RM) $(ALL) *.o
