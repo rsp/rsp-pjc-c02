@@ -22,4 +22,4 @@ clean:
 	$(RM) $(ALL) *.o
 
 test: all
-	./test-all.sh
+	./test.sh
