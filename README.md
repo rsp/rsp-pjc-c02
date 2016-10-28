@@ -12,8 +12,8 @@ More PJC examples: https://github.com/rsp/rsp-pjc
 Programs
 -
 * [**z01.cc**](z01.cc)
-* [**z02.cc**](z01.cc)
-* [**z03.cc**](z01.cc)
+* [**z02.cc**](z02.cc)
+* [**z03.cc**](z03.cc)
 
 Repos
 -
