@@ -1,3 +1,5 @@
+// PJC-C02/Z01 by Rafał Pocztarski - https://pocztarski.com/
+
 #include <iostream>
 #include <cmath>
 
