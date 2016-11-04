@@ -15,6 +15,13 @@ Programs
 * [**z02.cc**](z02.cc)
 * [**z03.cc**](z03.cc)
 
+Build scripts
+-
+* [**Makefile**](Makefile)
+* [**test.sh**](test.sh)
+* [**.travis.yml**](.travis.yml)
+* [**.gitlab-ci.yml**](.gitlab-ci.yml)
+
 Repos
 -
 * **GitHub:** https://github.com/rsp/rsp-pjc-c02
